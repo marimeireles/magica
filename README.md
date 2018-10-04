@@ -6,48 +6,45 @@ Um baralho possui 60 cartas no total, e possui apenas dois tipos de terrenos. Po
 
 ### Classes
 
-Jogador
-
-    Baralho
-
-        Carta
-
-            Terreno
-                Floresta
-                Cemitério
-                Ilha
-                Montanha
-            Monstro
-                Dragão
-                Zumbi
-                Elfo
-                Peixe
+    Jogador
+        Baralho
+            Carta
+                Terreno
+                    Floresta
+                    Cemitério
+                    Ilha
+                    Montanha
+                Monstro
+                    Dragão
+                    Zumbi
+                    Elfo
+                    Peixe
 
 ### Objetos
 
-Jogador
-    Pontos de vida
-    Nome
-    Cartas na mão
-    Cartas na mesa
+    Jogador
+        Pontos de vida
+        Nome
+        Cartas na mão
+        Cartas na mesa
+        Baralho
+
     Baralho
+        Cartas []
+        Contagem cartas no deck
 
-Baralho
-    Cartas []
-    Contagem cartas no deck
+    Carta
+        Tipo(Terreno/Monstro)
 
-Carta
-    Tipo(Terreno/Monstro)
+    Terreno
+        Tipo
 
-Terreno
-    Tipo
-
-Monstro
-    Nome
-    Tipo
-    Defesa
-    Ataque
-    Custo de mana
+    Monstro
+        Nome
+        Tipo
+        Defesa
+        Ataque
+        Custo de mana
 
 ### Terrenos
 
