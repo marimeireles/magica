@@ -7,8 +7,11 @@ Um baralho possui 60 cartas no total, e possui apenas dois tipos de terrenos. Po
 ### Classes
 
 Jogador
+
     Baralho
+
         Carta
+
             Terreno
                 Floresta
                 Cemitério
