@@ -15,7 +15,6 @@ Um baralho possui 60 cartas no total, e possui apenas dois tipos de terrenos. Po
                     Ilha
                     Montanha
                 Monstro
-                    De acordo com o terreno
 
 ### Objetos
 
