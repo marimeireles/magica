@@ -38,10 +38,12 @@ Um baralho possui 60 cartas no total, e possui apenas dois tipos de terrenos. Po
 
     Monstro
         Nome
-        Tipo
-        Defesa
-        Ataque
         Custo de mana
+        Ataque
+        Defesa
+        Frase de ataque
+        Descrição
+
 
 ### Terrenos
 
