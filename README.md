@@ -76,11 +76,11 @@ Descrição: Uma mula com uma chama azul no lugar da cabeça.
 ```
 #### Cemitério
 ```
-Nome: Morcego-de-fruta
+Nome: Morcego de fruta
 Custo de mana: 1 cemitério
 Ataque: 1
 Defesa: 1
-Frase de ataque: O morcego-de-fruta deixa uma porção considerável de guano cair sobre os olhos de %s
+Frase de ataque: O morcego de fruta deixa uma porção considerável de guano cair sobre os olhos de %s
 Descrição: Pequeno mamífero horrendo comedor de frutas.
 ```
 #### Montanha
