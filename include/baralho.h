@@ -5,9 +5,9 @@
 
 class Baralho {
 
-public:
-    Carta *cartas;
-    int cartasNoDeck;
+    public:
+        Carta *cartas;
+        int cartasNoDeck;
 };
 
 #endif

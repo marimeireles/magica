@@ -1,53 +1,70 @@
-## Magic the Gathering Simplificado
+## As batalhas épicas de Pindorama
+
+As batalhas épicas de Pindorama é um jogo de cartas para terminal similar ao jogo Magic the Gathering.
+
+### Regras
 
 O jogo contém 4 terrenos e 20 monstros diferentes, 5 monstros para cada cor.
 
-Um baralho possui 60 cartas no total, e possui apenas dois tipos de terrenos. Possui 20 terrenos e 40 monstros.
+Um baralho possui 60 cartas no total (20 terrenos e 40 monstros), e pode conter apenas dois tipos diferentes de terrenos.
+
+O primeiro jogador é definido aleatoriamente por meio de uma "jogada de moeda". Ímpar equivale ao jogador 1 e par ao jogador 2.
+
+Os jogadores não são obrigados a atacar nem defender em seus turnos.
+
+O jogador atacante escolhe com quais criaturas deseja atacar e o jogador defensor pode escolher entre defender com uma ou mais de suas criaturas ou tomar o dano diretamente nos seus pontos de vida.
+
+O jogo acaba quando a vida de um dos jogadores é =<0 ou todo o baralho de um dos jogadores está no cemitério.
+
+O jogador pode escolher conceder em seu turno, garantindo vitória imediata ao outro jogador.
 
 ### Classes
 
+    Mesa
+        Carta
     Jogador
         Baralho
             Carta
                 Terreno
-                    Floresta
-                    Cemitério
-                    Ilha
-                    Montanha
                 Monstro
 
 ### Objetos
+
+    Mesa
+        Cartas na mesa
 
     Jogador
         Pontos de vida
         Nome
         Cartas na mão
         Cartas na mesa
+        Cartas no cemitério
+        Terrenos disponíveis nesse turno
         Baralho
 
     Baralho
-        Cartas []
-        Contagem cartas no deck
+        Cartas
+        Contagem de cartas no deck
 
     Carta
-        Tipo(Terreno/Monstro)
-
-    Terreno
-        Tipo
-
-    Monstro
-        Nome
-        Custo de mana
-        Ataque
-        Defesa
-        Frase de ataque
-        Descrição
+        Tipo (Terreno/Monstro)
+        Terreno
+            Tipo (Floresta/Cemitério/Ilha/Serrado)
+        Monstro
+            Nome
+            Custo de mana
+            Tipo de mana
+            Ataque
+            Defesa
+            Pontos de vida
+            Frase de ataque
+            Descrição
 
 
 ### Terrenos
 
 Hierarquia de terrenos:
-Floresta > Ilha > Montanha > Cemitério > Floresta
+Floresta > Ilha > Serrado > Cemitério > Floresta
 
 ### Monstros
 
@@ -86,7 +103,7 @@ Descrição: Pequeno mamífero horrendo comedor de frutas.
 #### Montanha
 ```
 Nome: Virgulino, cangaceiro arretado
-Custo de mana: 3 montanhas
+Custo de mana: 3 serrados
 Ataque: 3
 Defesa: 2
 Frase de ataque: Virgulino, cangaceiro arretado enfia a pexeira em %s

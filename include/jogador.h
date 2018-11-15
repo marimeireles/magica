@@ -5,9 +5,9 @@
 
 class Jogador {
 
-public:
-    int pontosDeVida;
-    static const std::string nome;
+    public:
+        int pontosDeVida;
+        static const std::string nome;
 };
 
 #endif
