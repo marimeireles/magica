@@ -2,12 +2,17 @@
 #define _jogador_h
 
 #include <string>
+#include "carta.h"
 
 class Jogador {
 
     public:
+        const std::string nome;
         int pontosDeVida;
-        static const std::string nome;
+        Carta *cartasNaMao, *cartasNaMesa, *cartasNoCemiterio;
+        int terrenosDisponiveis;
+        Baralho baralho;
+
 };
 
 #endif

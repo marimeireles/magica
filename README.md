@@ -49,7 +49,7 @@ O jogador pode escolher conceder em seu turno, garantindo vitória imediata ao o
     Carta
         Tipo (Terreno/Monstro)
         Terreno
-            Tipo (Floresta/Cemitério/Ilha/Serrado)
+            Tipo (Floresta/Pantanal/Ilha/Serrado)
         Monstro
             Nome
             Custo de mana
@@ -64,7 +64,7 @@ O jogador pode escolher conceder em seu turno, garantindo vitória imediata ao o
 ### Terrenos
 
 Hierarquia de terrenos:
-Floresta > Ilha > Serrado > Cemitério > Floresta
+Floresta > Ilha > Serrado > Pantanal > Floresta
 
 ### Monstros
 

@@ -1,3 +1,4 @@
+#include "include/mesa.h"
 #include "include/jogador.h"
 #include "include/baralho.h"
 #include "include/carta.h"

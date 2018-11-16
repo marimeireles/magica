@@ -3,8 +3,13 @@
 
 class Carta {
 
-public:
-    
+    public:
+        const std::string tipo;
 };
+
+class Terreno: public Carta {
+
+    public:
+}
 
 #endif
