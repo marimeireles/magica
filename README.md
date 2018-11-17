@@ -118,6 +118,14 @@ Frase de ataque: O morcego de fruta deixa uma porção considerável de guano ca
 Descrição: Pequeno mamífero horrendo comedor de frutas.
 ```
 ```
+Nome: Negrinho do Pastoreio 
+Custo de mana: 3 cemitérios 
+Ataque: 2 
+Defesa: 3 
+Frase de ataque: Os seus cavalos não pouparam o %s 
+Descrição: Invocado quando algo é perdido faz esse menino ser adorado e temido.
+```
+```
 Nome: Lobisomem 
 Custo de mana: 5 cemitérios 
 Ataque: 4  
@@ -137,11 +145,19 @@ Descrição: O cangaceiro mais arretado do sertão.
 ```
 ```
 Nome: Saci-Pererê 
+Custo de mana: 2 serrado 
+Ataque: 2 
+Defesa: 2 
+Frase de ataque: Suas brincadeiras irritam de forma absurda o %s 
+Descrição: Um menino serelepe que causa caos e diversão por onde passa.
+```
+```
+Nome: Pisadeira 
 Custo de mana: 1 serrado 
 Ataque: 1 
 Defesa: 1 
-Frase de ataque: Suas brincadeiras irritam de forma absurda o %s 
-Descrição: Um menino serelepe que causa caos e diversão por onde passa
+Frase de ataque: Ela ira sapatear sobre o seu estomago %s 
+Descrição: Feia que nem uma bruxa, porém com um pé que causa dor e sofrimento.
 ```
 
 #### Ilha
@@ -160,6 +176,14 @@ Ataque: 2
 Defesa: 2 
 Frase de ataque: De forma audaciosa o boto tenta engravidar o %s 
 Descrição: Emergindo das águas como um jovem bonito tenta encantar mulheres.
+```
+```
+Nome: Capelobo 
+Custo de mana: 3 ilhas 
+Ataque: 3 
+Defesa: 2 
+Frase de ataque: Tenta se alimentar com o sangue e cabeça do %s 
+Descrição: A mistura de animais faz esse monstro dos rios ser algo maligno.
 ```
 ```
 Nome: Iara das águas
