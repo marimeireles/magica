@@ -91,6 +91,14 @@ Defesa: 2
 Frase de ataque: A mula-sem-cabeça dá um coice em %s
 Descrição: Uma mula com uma chama azul no lugar da cabeça.
 ```
+```
+Nome: Boitatá 
+Custo de mana: 1 floresta 
+Ataque: 1 
+Defesa: 1 
+Frase de ataque: De forma implacável ela deixa cego e louco o %s 
+Descrição: A grande serpente de fogo que é contra as queimadas.
+```
 #### Cemitério
 ```
 Nome: Morcego de fruta
@@ -100,6 +108,23 @@ Defesa: 1
 Frase de ataque: O morcego de fruta deixa uma porção considerável de guano cair sobre os olhos de %s
 Descrição: Pequeno mamífero horrendo comedor de frutas.
 ```
+```
+Nome: Curupira 
+Custo de mana: 2 florestas 
+Ataque: 2 
+Defesa: 2 
+Frase de ataque: Sem dó alguma ele da uma voadora invertida no %s 
+Descrição: O maior protetor das florestas, só fica atrás apenas para a Marina Silva.
+```
+```
+Nome: Lobisomem 
+Custo de mana: 5 cemitérios 
+Ataque: 4  
+Defesa: 3 
+Frase de ataque: A mordida feroz acaba com o %s 
+Descrição: Feroz e maldoso, não teme nada
+```
+
 #### Montanha
 ```
 Nome: Virgulino, cangaceiro arretado
@@ -109,6 +134,15 @@ Defesa: 2
 Frase de ataque: Virgulino, cangaceiro arretado enfia a pexeira em %s
 Descrição: O cangaceiro mais arretado do sertão.
 ```
+```
+Nome: Saci-Pererê 
+Custo de mana: 1 serrado 
+Ataque: 1 
+Defesa: 1 
+Frase de ataque: Suas brincadeiras irritam de forma absurda o %s 
+Descrição: Um menino serelepe que causa caos e diversão por onde passa
+```
+
 #### Ilha
 ```
 Nome: Capivara atroz
@@ -117,6 +151,14 @@ Ataque: 2
 Defesa: 2
 Frase de ataque: Os carrapatos-estrela da capivara atroz mordem %s
 Descrição: A capivara é um roedor dócil, mas que contém carrapatos ferozes.
+```
+```
+Nome: Boto cor de rosa 
+Custo de mana: 2 ilhas 
+Ataque: 2 
+Defesa: 2 
+Frase de ataque: De forma audaciosa o boto tenta engravidar o %s 
+Descrição: Emergindo das águas como um jovem bonito tenta encantar mulheres.
 ```
 ```
 Nome: Iara das águas
