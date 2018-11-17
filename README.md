@@ -126,6 +126,14 @@ Frase de ataque: Os seus cavalos não pouparam o %s
 Descrição: Invocado quando algo é perdido faz esse menino ser adorado e temido.
 ```
 ```
+Nome: Labatut 
+Custo de mana: 4 cemitérios 
+Ataque: 3 
+Defesa: 3 
+Frase de ataque: Violência e crueldade cuidarão de você %s 
+Descrição: Comer para poder crescer, mas não as crianças, estas são sua comida.
+```
+```
 Nome: Lobisomem 
 Custo de mana: 5 cemitérios 
 Ataque: 4  
@@ -163,9 +171,9 @@ Descrição: Feia que nem uma bruxa, porém com um pé que causa dor e sofriment
 #### Ilha
 ```
 Nome: Capivara atroz
-Custo de mana: 2 ilhas
-Ataque: 2
-Defesa: 2
+Custo de mana: 1 ilha
+Ataque: 1
+Defesa: 1
 Frase de ataque: Os carrapatos-estrela da capivara atroz mordem %s
 Descrição: A capivara é um roedor dócil, mas que contém carrapatos ferozes.
 ```
@@ -192,4 +200,12 @@ Ataque: 3
 Defesa: 3
 Frase de ataque: Iara canta uma canção desafinada machucando os tímpanos de %s
 Descrição: Último lugar no Show de Calouros do programa do Raul Gil.
+```
+```
+Nome: Negro d’água 
+Custo de mana: 5 ilhas 
+Ataque: 4 
+Defesa: 3 
+Frase de ataque: Minhas águas não aceitam intrusos, você devera pagar %s 
+Descrição: A fusão de um homem alto e forte com um anfíbio, uma criatura poderosa e cruel
 ```
