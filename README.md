@@ -92,6 +92,15 @@ Frase de ataque: A mula-sem-cabeça dá um coice em %s
 Descrição: Uma mula com uma chama azul no lugar da cabeça.
 ```
 ```
+Nome: Curupira 
+Custo de mana: 2 florestas 
+Ataque: 2 
+Defesa: 2 
+Frase de ataque: Sem dó alguma ele da uma voadora invertida no %s 
+Descrição: O maior protetor das florestas, só fica atrás apenas para a Marina Silva.
+
+```
+```
 Nome: Boitatá 
 Custo de mana: 1 floresta 
 Ataque: 1 
@@ -107,14 +116,6 @@ Ataque: 1
 Defesa: 1
 Frase de ataque: O morcego de fruta deixa uma porção considerável de guano cair sobre os olhos de %s
 Descrição: Pequeno mamífero horrendo comedor de frutas.
-```
-```
-Nome: Curupira 
-Custo de mana: 2 florestas 
-Ataque: 2 
-Defesa: 2 
-Frase de ataque: Sem dó alguma ele da uma voadora invertida no %s 
-Descrição: O maior protetor das florestas, só fica atrás apenas para a Marina Silva.
 ```
 ```
 Nome: Lobisomem 
