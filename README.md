@@ -88,7 +88,7 @@ Nome: Ao ao
 Custo de mana: 4 florestas 
 Ataque: 4 
 Defesa: 2 
-Frase de ataque: Minha proxima refeição é voce %s 
+Frase de ataque: Minha proxima refeição é você %s 
 Descrição: Miau miau.
 ```
 ```
