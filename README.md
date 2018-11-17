@@ -176,6 +176,14 @@ Frase de ataque: Virgulino, cangaceiro arretado enfia a pexeira em %s
 Descrição: O cangaceiro mais arretado do sertão.
 ```
 ```
+Nome: Cuca 
+Custo de mana: 3 serrados 
+Ataque: 2 
+Defesa: 3 
+Frase de ataque: Mais sombria e cruel que as outras só o que acontecerá com %s 
+Descrição: Ótimo técnico de futebol.
+```
+```
 Nome: Saci-Pererê 
 Custo de mana: 2 serrados
 Ataque: 2 
