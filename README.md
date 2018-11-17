@@ -126,6 +126,14 @@ Frase de ataque: O morcego de fruta deixa uma porção considerável de guano ca
 Descrição: Pequeno mamífero horrendo comedor de frutas.
 ```
 ```
+Nome: Corpo-seco 
+Custo de mana: 2 cemitérios 
+Ataque: 2 
+Defesa: 2 
+Frase de ataque: De forma sombria ele ira sugar o sangue do %s 
+Descrição: Rejeitado pelo céu e o inferno, tipo você no coração da crush.
+```
+```
 Nome: Negrinho do Pastoreio 
 Custo de mana: 3 cemitérios 
 Ataque: 2 
