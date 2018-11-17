@@ -92,6 +92,14 @@ Frase de ataque: A mula-sem-cabeça dá um coice em %s
 Descrição: Uma mula com uma chama azul no lugar da cabeça.
 ```
 ```
+Nome: Luisón 
+Custo de mana: 3 florestas 
+Ataque: 2 
+Defesa: 3 
+Frase de ataque: Uma mordida brutal será o seu castigo %s 
+Descrição: Literalmente um cachorrão que vive nas florestas.
+```
+```
 Nome: Curupira 
 Custo de mana: 2 florestas 
 Ataque: 2 
@@ -144,6 +152,14 @@ Descrição: Feroz e maldoso, não teme nada
 
 #### Montanha
 ```
+Nome: Charía 
+Custo de mana: 5 serrados 
+Ataque: 4 
+Defesa: 3 
+Frase de ataque: A onça vai fazer o mesmo que fez com os irmãos sol e lua %s 
+Descrição: O espírito maléfico, o eclipse significa muito mais que a morte da lua.
+```
+```
 Nome: Virgulino, cangaceiro arretado
 Custo de mana: 3 serrados
 Ataque: 3
@@ -153,7 +169,7 @@ Descrição: O cangaceiro mais arretado do sertão.
 ```
 ```
 Nome: Saci-Pererê 
-Custo de mana: 2 serrado 
+Custo de mana: 2 serrados
 Ataque: 2 
 Defesa: 2 
 Frase de ataque: Suas brincadeiras irritam de forma absurda o %s 
