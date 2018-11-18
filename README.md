@@ -14,6 +14,8 @@ Os jogadores não são obrigados a atacar nem defender em seus turnos.
 
 O jogador atacante escolhe com quais criaturas deseja atacar e o jogador defensor pode escolher entre defender com uma ou mais de suas criaturas ou tomar o dano diretamente nos seus pontos de vida.
 
+O jogador começa o jogo com 20 pontos de vida.
+
 O jogo acaba quando a vida de um dos jogadores é =<0 ou todo o baralho de um dos jogadores está no cemitério.
 
 O jogador pode escolher conceder em seu turno, garantindo vitória imediata ao outro jogador.
