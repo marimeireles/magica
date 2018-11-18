@@ -163,7 +163,7 @@ Custo de mana: 5 cemitérios
 Ataque: 4  
 Defesa: 3 
 Frase de ataque: A mordida feroz acaba com o %s 
-Descrição: Feroz e maldoso, não teme nada
+Descrição: Feroz e maldoso, não teme nada, o contrário de você que morre de medo de tudo da faculdade.
 ```
 
 #### Montanha
@@ -247,5 +247,5 @@ Custo de mana: 5 ilhas
 Ataque: 4 
 Defesa: 3 
 Frase de ataque: Minhas águas não aceitam intrusos, você devera pagar %s 
-Descrição: A fusão de um homem alto e forte com um anfíbio, uma criatura poderosa e cruel
+Descrição: A fusão de um homem alto e forte com um anfíbio, uma criatura poderosa e cruel.
 ```
