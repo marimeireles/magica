@@ -8,13 +8,13 @@
 #include "carta.h"
 
 class Baralho {
-	Carta cartas[40];
+	Carta cartas[60];
 private:
 	int cartaIndex;
 public:
 	Baralho()
 	{
-		for (cartaIndex = 0; cartaIndex < 40; cartaIndex++)
+		for (cartaIndex = 0; cartaIndex < 60; cartaIndex++)
 			cartas[cartaIndex] = Carta();
 	}
 
