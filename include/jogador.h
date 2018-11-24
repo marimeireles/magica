@@ -9,17 +9,15 @@ class Jogador
 protected:
     std::string _nome; // Nome do Jogador
     Baralho *_baralho;
+    std::vector<Carta> _cartasNaMao;
 
 public:
     int _pontosDeVida; // Pontos de Vida do jogador
 
     Jogador(std::string nome, Baralho *baralho, int pontosDeVida);
-    // Baralho baralho;
-    // void setNome(char*);
-    // const char * getJogadorNome(); // Retorna o nome do jogador.
-    // int getPontosDeVida(); // Retorna os pontos de vida do jogador.
-    // void addPontosDeVida(int); // Mudar os pontos de vida do jogador selecionado durante o jogo.
-    // void loadBaralho(); // Carrega o baralho do jogador.
-    // void getMao(); // Pega as cartas do baralho.
-    // void mostrarMao(int); // Mostra a mão do jogador selecionado.
+    void setNome();
+    std::string getNome();
+    int getPontosDeVida(); // Retorna os pontos de vida do jogador.
+    void compraCarta();
+    void mostrarMao(); // Mostra a mão do jogador selecionado.
 };

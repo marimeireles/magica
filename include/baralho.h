@@ -6,10 +6,9 @@
 
 class Baralho
 {
-protected:
+public:
     std::vector<std::shared_ptr<Carta>> _cartas;
 
-public:
     Baralho();
     ~Baralho();
     static Baralho criaBaralhoSerrado();

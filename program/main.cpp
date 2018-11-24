@@ -18,6 +18,10 @@ int main(int argc, char const *argv[])
 
     //testa cria jogador
     Jogador jogador1("Bruxonilda", &baralho, 20);
+    // jogador1.setNome();
+    std::cout << jogador1.getNome() << std::endl;
+
+    
 
     /**
         Pra iniciar o jogo podemos fazer um loop.
