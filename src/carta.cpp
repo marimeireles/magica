@@ -7,7 +7,8 @@ Carta::Carta(std::string nome, int tipoDeMana)
 }
 
 /** retorna nome da carta **/
-std::string Carta::getNome() {
+std::string Carta::getNome()
+{
     return this->_nome;
 }
 

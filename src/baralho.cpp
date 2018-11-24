@@ -17,12 +17,12 @@ Baralho Baralho::criaBaralhoSerrado()
 {
     Baralho baralho;
 
-    for (int i = 0; i < 19; ++i)
+    for (int i = 0; i < 20; ++i)
     {
         baralho._cartas.push_back(new CartaTerreno("Serrado", 3, true));
     }
 
-    for (int i = 0; i < 7; ++i)
+    for (int i = 0; i < 8; ++i)
     {
         baralho._cartas.push_back(new CartaMonstro("Virgulino, cangaceiro arretado",
             3, 3, 2, 3, "Virgulino, cangaceiro arretado enfia a pexeira em",
@@ -42,4 +42,9 @@ Baralho Baralho::criaBaralhoSerrado()
     }
 
     return baralho;
+}
+
+int Baralho::tamanho()
+{
+    return this->_cartas.size();
 }

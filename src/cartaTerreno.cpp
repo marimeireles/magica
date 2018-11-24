@@ -6,7 +6,8 @@ Carta(nome, tipoDeMana)
     _disponibilidade = disponibilidade;
 }
 
-bool CartaTerreno::checaDisponibilidade(){
+bool CartaTerreno::checaDisponibilidade()
+{
     return this->_disponibilidade;
 }
 
