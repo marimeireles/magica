@@ -65,6 +65,11 @@ O jogador pode escolher conceder em seu turno, garantindo vitória imediata ao o
 
 ### Terrenos
 
+0 - Ilha
+1 - Floresta
+2 - Pantanal
+3 - Serrado
+
 Hierarquia de terrenos:
 Floresta > Ilha > Serrado > Pantanal > Floresta
 
@@ -126,10 +131,10 @@ Defesa: 1
 Frase de ataque: De forma implacável ela deixa cego e louco o %s 
 Descrição: A grande serpente de fogo que é contra as queimadas.
 ```
-#### Cemitério
+#### Pantanal
 ```
 Nome: Morcego de fruta
-Custo de mana: 1 cemitério
+Custo de mana: 1 pantanais
 Ataque: 1
 Defesa: 1
 Frase de ataque: O morcego de fruta deixa uma porção considerável de guano cair sobre os olhos de %s
@@ -137,15 +142,15 @@ Descrição: Pequeno mamífero horrendo comedor de frutas.
 ```
 ```
 Nome: Corpo-seco 
-Custo de mana: 2 cemitérios 
+Custo de mana: 2 pantanais 
 Ataque: 2 
 Defesa: 2 
 Frase de ataque: De forma sombria ele ira sugar o sangue do %s 
 Descrição: Rejeitado pelo céu e o inferno, tipo você no coração da crush.
 ```
 ```
-Nome: Negrinho do Pastoreio 
-Custo de mana: 3 cemitérios 
+Nome: Negrinho do Pastoreio
+Custo de mana: 3 pantanais
 Ataque: 2 
 Defesa: 3 
 Frase de ataque: Os seus cavalos não pouparam o %s 
@@ -153,7 +158,7 @@ Descrição: Invocado quando algo é perdido faz esse menino ser adorado e temid
 ```
 ```
 Nome: Labatut 
-Custo de mana: 4 cemitérios 
+Custo de mana: 4 pantanais 
 Ataque: 3 
 Defesa: 3 
 Frase de ataque: Violência e crueldade cuidarão de você %s 
@@ -161,7 +166,7 @@ Descrição: Comer para poder crescer, mas não as crianças, estas são sua com
 ```
 ```
 Nome: Lobisomem 
-Custo de mana: 5 cemitérios 
+Custo de mana: 5 pantanais 
 Ataque: 4  
 Defesa: 3 
 Frase de ataque: A mordida feroz acaba com o %s 

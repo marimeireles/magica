@@ -1,15 +1,27 @@
-#ifndef _carta_h
-#define _carta_h
+#pragma once
 
-class Carta {
+#include <string>
 
-    public:
-        const std::string tipo;
+class Carta
+{
+protected:
+    std::string _nome; // Nome da carta.
+    int _tipoDeMana;
+
+public:
+    Carta(std::string nome, int tipoDeMana);
+    virtual ~Carta();
+    std::string getNome(); // Nome da carta
+
+/**
+    So funciona se formos fazer um sistema de construcao de cartas de outra forma
+    nao vale a pena recriar o deck toda vez que quiser jogar. Por isso criamos as
+    cartas no README, sao constantes em um deck.
+
+    const void setNome(const char*); // Nome da carta
+    void setTipo(cardTipo); // Tipo da carta
+    void setAtaque(int); // Ataque da carta
+    void setDefesa(int); // Defesa da carta
+**/
 };
 
-class Terreno: public Carta {
-
-    public:
-}
-
-#endif
