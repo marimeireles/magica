@@ -8,14 +8,12 @@ class Jogador
 {
 protected:
     std::string _nome; // Nome do Jogador
-    Baralho _baralho;
+    Baralho *_baralho;
 
 public:
     int _pontosDeVida; // Pontos de Vida do jogador
 
-    Jogador(std::string nome, Baralho baralho, int pontosDeVida);
-    // Jogador(const char*); // Nome do jogador
-    // Carta mao[4];
+    Jogador(std::string nome, Baralho *baralho, int pontosDeVida);
     // Baralho baralho;
     // void setNome(char*);
     // const char * getJogadorNome(); // Retorna o nome do jogador.

@@ -1,12 +1,13 @@
 #pragma once
 
 #include <vector>
+#include <memory>
 #include "carta.h"
 
 class Baralho
 {
 protected:
-    std::vector<Carta*> _cartas;
+    std::vector<std::shared_ptr<Carta>> _cartas;
 
 public:
     Baralho();

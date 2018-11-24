@@ -1,6 +1,6 @@
 #include "jogador.h"
 
-Jogador::Jogador(std::string nome, Baralho baralho, int pontosDeVida)
+Jogador::Jogador(std::string nome, Baralho *baralho, int pontosDeVida)
 {
     _nome = nome;
     _baralho = baralho;

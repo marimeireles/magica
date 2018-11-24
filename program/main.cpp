@@ -15,8 +15,9 @@ int main(int argc, char const *argv[])
     //testa cria baralho
     Baralho baralho = Baralho::criaBaralhoSerrado();
     printf("%d\n", baralho.tamanho());
+
     //testa cria jogador
-    // Jogador jogador1("Bruxonilda", baralho, 20);
+    Jogador jogador1("Bruxonilda", &baralho, 20);
 
     /**
         Pra iniciar o jogo podemos fazer um loop.
@@ -28,5 +29,6 @@ int main(int argc, char const *argv[])
         Uma vez que um dos baralhos tenha 0 cartas ou um dos jogadores tenha 0
         vida o loop acaba e anunciamos o vencedor.
     **/
+
     return 0;
 }
