@@ -1,8 +1,8 @@
 #include "cartaMonstro.h"
 
-CartaMonstro::CartaMonstro(std::string nome, int tipoDeMana, int custoDeMana,
-    int ataque, int defesa, std::string fraseDeAtaque, std::string descricao) :
-    Carta(nome, tipoDeMana)
+CartaMonstro::CartaMonstro(std::string nome, int tipoDeMana, int IDJogador, 
+    int custoDeMana, int ataque, int defesa, std::string fraseDeAtaque, 
+    std::string descricao) : Carta(nome, tipoDeMana, IDJogador)
 {
     _custoDeMana = custoDeMana;
     _tipoDeMana = tipoDeMana;

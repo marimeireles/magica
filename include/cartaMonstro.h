@@ -13,7 +13,7 @@ protected:
     std::string _descricao;
 
 public:
-    CartaMonstro(std::string nome, int tipoDeMana, int custoDeMana, int ataque,
+    CartaMonstro(std::string nome, int tipoDeMana, int IDJogador, int custoDeMana, int ataque,
         int defesa, std::string fraseDeAtaque, std::string descricao);
     virtual ~CartaMonstro();
 };

@@ -1,7 +1,7 @@
 #include "cartaTerreno.h"
 
-CartaTerreno::CartaTerreno(std::string nome, int tipoDeMana, int disponibilidade) :
-Carta(nome, tipoDeMana)
+CartaTerreno::CartaTerreno(std::string nome, int tipoDeMana, int IDJogador, 
+    int disponibilidade) : Carta(nome, tipoDeMana, IDJogador)
 {
     _disponibilidade = disponibilidade;
 }

@@ -7,11 +7,13 @@ class Carta
 protected:
     std::string _nome; // Nome da carta.
     int _tipoDeMana;
+    int _IDJogador;
 
 public:
-    Carta(std::string nome, int tipoDeMana);
+    Carta(std::string nome, int tipoDeMana, int IDJogador);
     virtual ~Carta();
     std::string getNome(); // Nome da carta
+    int getPessoaDonaDaCarta();
 
 /**
     So funciona se formos fazer um sistema de construcao de cartas de outra forma
