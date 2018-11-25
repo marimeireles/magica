@@ -1,5 +1,6 @@
 #pragma once
 
+#include <iostream>
 #include "carta.h"
 
 class CartaTerreno : public Carta
@@ -11,4 +12,5 @@ public:
     CartaTerreno(std::string nome, int tipoDeMana, int IDJogador, int disponibilidade);
     virtual ~CartaTerreno();
     bool checaDisponibilidade();
+    void imprimeCartaEspecifica();
 };

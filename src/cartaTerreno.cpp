@@ -1,3 +1,4 @@
+#include <iostream>
 #include "cartaTerreno.h"
 
 CartaTerreno::CartaTerreno(std::string nome, int tipoDeMana, int IDJogador, 
@@ -13,4 +14,9 @@ bool CartaTerreno::checaDisponibilidade()
 
 CartaTerreno::~CartaTerreno()
 {
+}
+
+void CartaTerreno::imprimeCartaEspecifica()
+{
+    std::cout << this->_disponibilidade << std::endl;
 }

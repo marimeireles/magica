@@ -45,3 +45,13 @@ int Baralho::tamanho()
 {
     return this->_cartas.size();
 }
+
+std::shared_ptr<Carta> Baralho::getCarta()
+{
+    return this->_cartas.back();
+}
+
+void Baralho::removeCarta()
+{
+    this->_cartas.pop_back();
+}

@@ -1,4 +1,6 @@
 #include "carta.h"
+#include "cartaMonstro.h"
+#include "cartaTerreno.h"
 
 Carta::Carta(std::string nome, int tipoDeMana, int IDJogador)
 {
@@ -18,8 +20,22 @@ std::string Carta::getNome()
     return this->_nome;
 }
 
-int Carta::getPessoaDonaDaCarta() {
+int Carta::getTipoDeMana()
+{
+    return this->_tipoDeMana;
+}
+
+int Carta::getPessoaDonaDaCarta()
+{
     return this->_IDJogador;
+}
+
+void Carta::imprimeCarta()
+{
+    std::cout << this->_nome << std::endl;
+    std::cout << this->_tipoDeMana << std::endl;
+    std::cout << this->_IDJogador << std::endl;
+    imprimeCartaEspecifica();
 }
 /**
     So funciona se formos fazer um sistema de construcao de cartas de outra forma

@@ -1,6 +1,7 @@
 #include "cartaMonstro.h"
 #include "baralho.h"
 #include "jogador.h"
+#include "mesa.h"
 #include <iostream>
 
 int main(int argc, char const *argv[])
@@ -21,6 +22,15 @@ int main(int argc, char const *argv[])
     Jogador jogador0("Bruxonilda", 0, &baralho, 20);
     // jogador0.setNome();
     std::cout << jogador0.getNome() << std::endl;
+
+    for (int i = 0; i < 5; ++i)
+        jogador0.compraCarta();
+
+    jogador0.mostraMao();
+
+    Mesa mesa(jogador0);
+    mesa.criaCartasNaMesa();
+    mesa.jogaCarta(1);
 
 
 

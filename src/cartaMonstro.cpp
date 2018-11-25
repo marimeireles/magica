@@ -5,7 +5,6 @@ CartaMonstro::CartaMonstro(std::string nome, int tipoDeMana, int IDJogador,
     std::string descricao) : Carta(nome, tipoDeMana, IDJogador)
 {
     _custoDeMana = custoDeMana;
-    _tipoDeMana = tipoDeMana;
     _ataque = ataque;
     _defesa = defesa;
     _fraseDeAtaque = fraseDeAtaque;
@@ -14,4 +13,33 @@ CartaMonstro::CartaMonstro(std::string nome, int tipoDeMana, int IDJogador,
 
 CartaMonstro::~CartaMonstro()
 {
+}
+
+int CartaMonstro::getAtaque()
+{
+    return this->_ataque;
+}
+
+int CartaMonstro::getDefesa()
+{
+    return this->_defesa;
+}
+
+std::string CartaMonstro::getFraseDeAtaque()
+{
+    return this->_fraseDeAtaque;
+}
+
+std::string CartaMonstro::getDescricao()
+{
+    return this->_descricao;
+}
+
+void CartaMonstro::imprimeCartaEspecifica()
+{
+    std::cout << this->_custoDeMana << std::endl;
+    std::cout << this->_ataque << std::endl;
+    std::cout << this->_defesa << std::endl;
+    std::cout << this->_fraseDeAtaque << std::endl;
+    std::cout << this->_descricao << std::endl;
 }

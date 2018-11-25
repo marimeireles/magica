@@ -1,6 +1,4 @@
-#include <iostream>
 #include "jogador.h"
-#include "mesa.h"
 
 Jogador::Jogador(std::string nome, int IDJogador, Baralho *baralho, int pontosDeVida)
 {
@@ -8,6 +6,16 @@ Jogador::Jogador(std::string nome, int IDJogador, Baralho *baralho, int pontosDe
     _IDJogador = IDJogador;
     _baralho = baralho;
     _pontosDeVida = pontosDeVida;
+}
+
+Jogador::Jogador(const Jogador& outro)
+{
+    _nome = outro._nome;
+    _IDJogador = outro._IDJogador;
+    _baralho = outro._baralho;
+    _pontosDeVida = outro._pontosDeVida;
+    _cartasNaMao = outro._cartasNaMao;
+    _cemiterio = outro._cemiterio;
 }
 
 void Jogador::setNome()
@@ -27,5 +35,11 @@ int Jogador::getPontosDeVida()
 
 void Jogador::compraCarta()
 {
-    this->_cartasNaMao.push_back(*this->_baralho->_cartas.back());
+    this->_cartasNaMao.push_back(this->_baralho->getCarta());
+    this->_baralho->removeCarta();
+}
+
+void Jogador::mostraMao() {
+    for (int i = 0; i < this->_cartasNaMao.size(); ++i)
+        this->_cartasNaMao[i]->imprimeCarta();
 }

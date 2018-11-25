@@ -10,11 +10,12 @@
 
 class Mesa {
 public:
-    Jogador jogadores[1];
-    std::vector<Carta> cartasNaMesa;
+    Jogador _jogador;
+    std::vector<std::shared_ptr<Carta>> _cartasNaMesa;
 
-    Mesa();
-    void jogaCarta();
+    Mesa(Jogador jogador);
+    std::vector<std::shared_ptr<Carta>> criaCartasNaMesa();
+    void jogaCarta(int indexDaCarta);
     void printMesaJogador0();
     void printMesaJogador1();
     void printMesa(); // Printa TODAS as cartas do tabuleiro.
