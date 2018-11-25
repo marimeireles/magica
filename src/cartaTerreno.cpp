@@ -18,5 +18,5 @@ CartaTerreno::~CartaTerreno()
 
 void CartaTerreno::imprimeCartaEspecifica()
 {
-    std::cout << this->_disponibilidade << std::endl;
+    std::cout << "Disponibilidade do terreno: " << this->_disponibilidade << std::endl;
 }

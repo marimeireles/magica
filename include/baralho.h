@@ -18,7 +18,7 @@ public:
     static Baralho criaBaralhoPantanal(int IDJogador);
     std::shared_ptr<Carta> getCarta();
     void removeCarta();
-    void Embaralha(); //Embaralha o baralho
+    void embaralha(); //Embaralha o baralho
     int tamanho(); // Tamanho do baralho
     void imprimeCarta(); // Printa a carta
 };

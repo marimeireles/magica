@@ -37,9 +37,9 @@ std::string CartaMonstro::getDescricao()
 
 void CartaMonstro::imprimeCartaEspecifica()
 {
-    std::cout << this->_custoDeMana << std::endl;
-    std::cout << this->_ataque << std::endl;
-    std::cout << this->_defesa << std::endl;
-    std::cout << this->_fraseDeAtaque << std::endl;
-    std::cout << this->_descricao << std::endl;
+    std::cout << "Tipo da carta: Carta Monstro" << std::endl;
+    std::cout << "Custo de mana: " << this->_custoDeMana << std::endl;
+    std::cout << "Ataque: " << this->_ataque << std::endl;
+    std::cout << "Defesa: " << this->_defesa << std::endl;
+    std::cout << "Descrição: " << this->_descricao << std::endl;
 }

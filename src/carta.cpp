@@ -32,9 +32,9 @@ int Carta::getPessoaDonaDaCarta()
 
 void Carta::imprimeCarta()
 {
-    std::cout << this->_nome << std::endl;
-    std::cout << this->_tipoDeMana << std::endl;
-    std::cout << this->_IDJogador << std::endl;
+    std::cout << "Nome da criatura: " << this->_nome << std::endl;
+    std::cout << "Tipo de mana: " << this->_tipoDeMana << std::endl;
+    std::cout << "Pessoa dona da carta: " << this->_IDJogador << std::endl;
     imprimeCartaEspecifica();
 }
 /**

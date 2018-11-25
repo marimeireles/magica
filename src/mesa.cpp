@@ -1,16 +1,7 @@
 #include "mesa.h"
 
-Mesa::Mesa(Jogador jogador)
-    : _jogador(jogador)
+Mesa::Mesa(Jogador jogador0, Jogador jogador1)
+    : _jogador0(jogador0)
+    , _jogador1(jogador1)
 {
-}
-
-std::vector<std::shared_ptr<Carta>> Mesa::criaCartasNaMesa()
-{
-    std::vector<std::shared_ptr<Carta>> cartasNaMesa;
-    return cartasNaMesa;
-}
-
-void Mesa::jogaCarta(int indexDaCarta) {
-    this->_cartasNaMesa.push_back(this->_jogador._cartasNaMao[indexDaCarta]);
 }

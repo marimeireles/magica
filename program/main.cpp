@@ -15,22 +15,27 @@ int main(int argc, char const *argv[])
     std::cout << cartaMonstro.getPessoaDonaDaCarta() << std::endl;
 
     //testa cria baralho
-    Baralho baralho = Baralho::criaBaralhoSerrado(0);
-    printf("%d\n", baralho.tamanho());
+    Baralho baralho0 = Baralho::criaBaralhoSerrado(0);
+    Baralho baralho1 = Baralho::criaBaralhoSerrado(1);
+    printf("%d\n", baralho0.tamanho());
 
     //testa cria jogador
-    Jogador jogador0("Bruxonilda", 0, &baralho, 20);
+    Jogador jogador0("Bruxonilda", 0, &baralho0, 20);
+    Jogador jogador1("Reuben", 1, &baralho1, 20);
     // jogador0.setNome();
     std::cout << jogador0.getNome() << std::endl;
 
+    //testa compra e joga carta
     for (int i = 0; i < 5; ++i)
         jogador0.compraCarta();
-
+    jogador0.mostraMao();
+    jogador0.jogaCarta(0);
+    printf("===============================\n");
     jogador0.mostraMao();
 
-    Mesa mesa(jogador0);
-    mesa.criaCartasNaMesa();
-    mesa.jogaCarta(1);
+    //testa mesa
+    Mesa mesa(jogador0, jogador1);
+
 
 
 
