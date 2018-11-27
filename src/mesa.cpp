@@ -5,3 +5,8 @@ Mesa::Mesa(Jogador jogador0, Jogador jogador1)
     , _jogador1(jogador1)
 {
 }
+
+void Mesa::printMesa()
+{
+    
+}
